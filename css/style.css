@@ -1,0 +1,26 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* utilities */
+
+
+
+
+
+/* card */
+.card-article{
+    width: 315px;
+    height: 550px;
+    background-color: red;
+    display: inline-block;
+    
+}
