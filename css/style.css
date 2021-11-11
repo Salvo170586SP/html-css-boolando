@@ -5,44 +5,59 @@
   box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 
 /* card */
 .card-article {
-  width: 315px;
+  width: calc(100% / 3 - 4px);
   height: 550px;
   background-color: green;
   display: inline-block;
   position: relative;
 }
 
-
-.card-article:hover #hidden{
-    display: inline-block;
-    position: absolute;
+.card-article:hover #copertina{
+    display: none;
 }
+
+
+.card-article:hover #retro{
+    display: inline-block;
+}
+
 
 .img-article{
     width: 100%;
 }
  
-#hidden{
+#retro{
     display: none;
 }
 
-.favorite {
+.favorite-article {
   width: 50px;
   height: 50px;
   background-color: white;
   position: absolute;
   top: 20px;
   right: 0;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
 }
 
-.sales {
+
+
+
+
+.sales-article {
   background-color: red;
   color: white;
   position: relative;
@@ -79,7 +94,7 @@
 }
 
 .price-article {
-  display: block;
+  display: inline-block;
   color: red;
   font-weight: bold ;
 }
