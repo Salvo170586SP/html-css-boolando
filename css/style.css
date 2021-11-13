@@ -33,6 +33,18 @@ img{
   width: 100%;
 }
 
+#image-1b{
+  display: none;
+}
+
+.card-image:hover #image-1{
+  display: none;
+}
+
+.card-image:hover #image-1b{
+  display: inline-block;
+}
+
 .favourite{
   width: 50px;
   height: 50px;
@@ -43,6 +55,10 @@ img{
   position: absolute;
   right: 0;
   top: 30px;
+}
+
+.favourite:hover{
+  color: red;
 }
 
 .card-badges{
