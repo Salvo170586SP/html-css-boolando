@@ -50,5 +50,26 @@ img{
   bottom: 30px;
   width: 100%;
   height: 50px;
-  border: 1px solid red;
 }
+
+.card-sales{
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.card-new-price{
+  color: red;
+  font-weight: bold;
+}
+
+.card-old-price{
+text-decoration-line: line-through;}
