@@ -20,7 +20,7 @@ body{
   width: calc(100% / 3 - 4px);
   display: inline-block;
   cursor: pointer;
-  margin: 30px;
+  margin: 30px 0;
   padding: 10px;
 }
 
@@ -33,15 +33,15 @@ img{
   width: 100%;
 }
 
-#image-1b{
+#image-second{
   display: none;
 }
 
-.card-image:hover #image-1{
+.card-image:hover #image-first{
   display: none;
 }
 
-.card-image:hover #image-1b{
+.card-image:hover #image-second{
   display: inline-block;
 }
 
